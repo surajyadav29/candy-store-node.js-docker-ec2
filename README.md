@@ -6,25 +6,6 @@ This project demonstrates **end-to-end containerization and deployment** of a No
 
 ---
 
-## Table of Contents
-
-1. [Project Overview](#project-overview)  
-2. [Tech Stack](#tech-stack)  
-3. [Prerequisites](#prerequisites)  
-4. [Step 1: Create Docker Hub Repository](#step-1-create-docker-hub-repository)  
-5. [Step 2: Add Dockerfile](#step-2-add-dockerfile)  
-6. [Step 3: Build Docker Image](#step-3-build-docker-image)  
-7. [Step 4: Tag Docker Image for Docker Hub](#step-4-tag-docker-image-for-docker-hub)  
-8. [Step 5: Push Image to Docker Hub](#step-5-push-image-to-docker-hub)  
-9. [Step 6: Launch AWS EC2 Instance](#step-6-launch-aws-ec2-instance)  
-10. [Step 7: Install Docker on EC2](#step-7-install-docker-on-ec2)  
-11. [Step 8: Pull Docker Image on EC2](#step-8-pull-docker-image-on-ec2)  
-12. [Step 9: Run Container on EC2](#step-9-run-container-on-ec2)  
-13. [Step 10: Access Application](#step-10-access-application)  
-14. [Notes](#notes)  
-
----
-
 ## Project Overview
 
 Candy Store is a Node.js application containerized using Docker. This README walks through creating a Docker Hub repository, building Docker images, pushing them to Docker Hub, launching an AWS EC2 instance, and deploying the container.
@@ -37,15 +18,6 @@ Candy Store is a Node.js application containerized using Docker. This README wal
 - Docker  
 - Docker Hub  
 - AWS EC2 (Amazon Linux 2023)  
-
----
-
-## Prerequisites
-
-- Docker installed locally and on EC2 instance  
-- Node.js installed locally for development  
-- AWS account with EC2 access  
-- Docker Hub account  
 
 ---
 
